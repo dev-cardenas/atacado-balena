@@ -1,0 +1,56 @@
+{
+  "name": "balena-electronjs",
+  "version": "1.0.2",
+  "description": "electronJS-based balena application",
+  "main": "main.js",
+  "homepage": "./",
+  "scripts": {
+    "dev": "BROWSER=none react-scripts start & URL_LAUNCHER_NODE=1 URL_LAUNCHER_URL=http://localhost:3000 NODE_ENV=development electron .",
+    "lint": "eslint .",
+    "start": "URL_LAUNCHER_NODE=1 NODE_ENV=production startx ./node_modules/electron/dist/electron .",
+    "local": "NODE_ENV=production electron .",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "URL_LAUNCHER_NODE=1 electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/balena-io-playground/balena-electronjs-react.git"
+  },
+  "keywords": [
+    "balena",
+    "io",
+    "electron",
+    "js"
+  ],
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parse": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "electron": "1.7.13",
+    "electron-rebuild": "^1.7.2",
+    "eslint": "^3.14.1",
+    "eslint-config-airbnb-base": "^11.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "express": "^4.16.4",
+    "lockfile": "^1.0.4",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-image-gallery": "^0.8.16",
+    "react-scripts": "0.8.5",
+    "react-slick": "^0.23.2",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  },
+  "author": "Carlo Maria Curinga",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/balena-io-playground/balena-electronjs-react/issues"
+  },
+  "jshintConfig": {
+    "esversion": 6,
+    "strict": true
+  },
+  "devDependencies": {}
+}

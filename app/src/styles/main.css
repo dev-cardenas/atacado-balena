@@ -1,0 +1,15 @@
+.container-slider-principal
+  > .image-gallery
+  > .image-gallery-content
+  > .image-gallery-slide-wrapper
+  > .image-gallery-swipe
+  > .image-gallery-slides
+  > .image-gallery-slide
+  img {
+  width: 100%;
+  height: 100vh;
+}
+
+.image-gallery-slide {
+  text-align: center;
+}

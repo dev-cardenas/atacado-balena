@@ -1,0 +1,25 @@
+{
+  "name": "balena-electronjs",
+  "description": "electronJS-based rpi2 balena application",
+  "main": "main.js",
+  "authors": [
+    "Carlo Maria Curinga"
+  ],
+  "license": "Apache-2.0",
+  "keywords": [
+    "balena",
+    "io",
+    "electron",
+    "js"
+  ],
+  "homepage": "https://github.com/balena-io-playground/balena-electronjs-react",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
